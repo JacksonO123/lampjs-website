@@ -1,6 +1,6 @@
 {
-  "name": "new-lampjs-app",
-  "version": "0.1.0",
+  "name": "lampjs-website",
+  "version": "0.1.1",
   "type": "module",
   "scripts": {
     "start:dev": "bun run --bun lampjs-ssr serve",
