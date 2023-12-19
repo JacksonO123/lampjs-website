@@ -6,14 +6,17 @@ settings:
 
 dependencies:
   '@jacksonotto/lampjs':
-    specifier: latest
+    specifier: ^4.5.3
     version: 4.5.3
   '@jacksonotto/lampjs-ssr':
-    specifier: latest
+    specifier: ^1.0.0
     version: 1.0.0(@jacksonotto/lampjs@4.5.3)(@types/node@20.10.4)
   '@jacksonotto/lampjs-vercel':
     specifier: ^1.0.2
     version: 1.0.2(@jacksonotto/lampjs-ssr@1.0.0)(@jacksonotto/lampjs@4.5.3)
+  mime-types:
+    specifier: ^2.1.35
+    version: 2.1.35
   rollup:
     specifier: ^4.7.0
     version: 4.9.0
