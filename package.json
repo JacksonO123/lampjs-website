@@ -15,7 +15,6 @@
   "dependencies": {
     "@jacksonotto/lampjs": "^4.5.3",
     "@jacksonotto/lampjs-ssr": "^1.0.0",
-    "@jacksonotto/lampjs-vercel": "^1.0.2",
     "mime-types": "^2.1.35",
     "rollup": "^4.7.0",
     "vite": "^5.0.4"

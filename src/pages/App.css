@@ -7,6 +7,8 @@
   border-radius: 12px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
   gap: 15px;
+  transition: 0.15s;
+  text-align: center;
 }
 
 .root img {
@@ -31,4 +33,11 @@ a,
 a:hover,
 a:active {
   color: black;
+}
+
+@media (max-width: 640px) {
+  .root {
+    padding: 60px 35px;
+    max-width: calc(100% - 120px);
+  }
 }
