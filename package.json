@@ -5,8 +5,7 @@
   "scripts": {
     "start:dev": "bun run --bun lampjs-ssr serve",
     "start:prod": "lampjs-ssr serve prod",
-    "build": "tsc && vite build && lampjs-ssr build | rollup dist-ssr/main.js -o dist-ssr/main.js",
-    "preview": "vite preview"
+    "build": "tsc && vite build && lampjs-ssr build"
   },
   "devDependencies": {
     "@types/node": "latest",
